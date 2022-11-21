@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  background-color: #f8f9fa;
+  background-repeat: no-repeat;
+}
+
+body {
+  font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+main {
+  border-top: solid 1px black;
+  background-color: #f8f9fa;
+  padding-bottom: 3em;
+}
+
+#logo {
+  width: 140px;
+}
+
+#text {
+  padding-top: 12px;
+}
+.nav-item {
+  margin-right: 1em;
+  margin-left: 53em;
+}
+
+.nav-link {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 18px !important;
+}
+
+header h1 {
+  font-size: 2em;
+  display: inline-block;
+  vertical-align: middle;
+}
+header h2 {
+  font-size: 2em;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header .container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.carousel carousel-dark {
+  width: 70% !important;
+}
+
+.container1,
+.container2 {
+  padding-top: 2em;
+  width: 60%;
+  height: 100%;
+}
+.container1,
+#conteudo-container2 {
+  margin-left: 20%;
+}
+.container2 {
+  background-color: #374151;
+  width: 100%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-top: 3em;
+}
+
+#conteudo-container2 {
+  padding: 3em;
+  border-radius: 10px;
+  width: 60%;
+}
+
+section {
+  overflow: hidden;
+}
+
+section h2 {
+  font-size: 3em;
+  display: block;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #f4e9e7;
+  margin-bottom: 0.5em;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 0.5em;
+  table-layout: fixed;
+}
+
+td,
+th {
+  padding: 0.7em;
+  margin: 0;
+  border: 1px solid #dad8d8;
+  text-align: center;
+}
+
+th {
+  font-weight: bold;
+  background-color: #dad8d8;
+}
+
+label {
+  color: #555;
+  display: block;
+  margin-bottom: 0.2em;
+}
+
+input {
+  width: 5em;
+  justify-content: space-around;
+}
+
+.campo {
+  margin: 0;
+  padding-bottom: 1em;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 0.7em;
+  width: 100%;
+}
+
+.campo-medio {
+  display: inline-block;
+  padding-right: 0.5em;
+}
+
+.adicionar-aluno {
+  margin-top: 30px;
+}
+
+.campo-invalido {
+  border: 1px solid red;
+}
+.botao1 {
+  padding-left: 1px;
+}
+#excluir {
+  font-size: 12px;
+  padding-top: 3.5em;
+}
+
+.fadeOut {
+  opacity: 0;
+  transition: 0.5s;
+}
+.invisivel {
+  display: none;
+}
+
+.aprovado {
+  color: #22c55e;
+}
+.reprovado {
+  color: #dc2626;
+}
